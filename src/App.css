@@ -29,3 +29,16 @@
 .small {
   font-size: 0.75rem;
 }
+.carosel{
+  width: 3838px;
+  height: 413px;
+  left: -1203px;
+  top: 279px;
+  
+}
+.body{
+  display:flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
