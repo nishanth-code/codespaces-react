@@ -1,10 +1,10 @@
 
 import '../cards.css'
 
-const cards = ({src,props}) =>{
+const cards = (props) =>{
      return(
         <div className="card">
-            <img src={src} alt="" srcset="" className="image" />
+            <img src={props.src} alt="" srcset="" className="image" />
            
         </div>
      );

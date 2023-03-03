@@ -1,5 +1,5 @@
-import Cards from './cards'
 
+import '../cards.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const responsive = {
@@ -35,11 +35,18 @@ const images = [
   ];
   const app =() =>{
     <Carousel responsive={responsive}>
-      <Cards src={images[0]}></Cards>
-      <Cards src={images[1]}></Cards>
-      <Cards src={images[2]}></Cards>
-      <Cards src={images[3]}></Cards>
-      <Cards src={images[4]}></Cards>
+      <div className="card">
+            <img src={images[0]} alt="" srcset="" className="image" />
+           
+        </div>
+        <div className="card">
+            <img src={images[0]} alt="" srcset="" className="image" />
+           
+        </div>
+        <div className="card">
+            <img src={images[0]} alt="" srcset="" className="image" />
+           
+        </div>
     </Carousel>
 
   }
