@@ -1,0 +1,14 @@
+.banner{
+    border-radius: 10px;
+    margin:10px 20px 10px 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+}
