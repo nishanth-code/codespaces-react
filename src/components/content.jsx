@@ -1,5 +1,62 @@
+import '../component.css'
 const contents = () =>{
-return (<h1>hello from contents</h1>);
+return (
+    <>
+    <p className='content-heading'>What are you Celebrating?</p>
+    <div className='main'>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+        <div className="item">
+            d
+        </div>
+
+    </div>
+    </>
+
+);
 }
 
 export default contents;

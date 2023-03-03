@@ -1,13 +1,9 @@
 import './App.css';
-import Corsel from './components/corousel'
-import Content from './components/content'
+import Home from'./pages/home'
 
 function App() {
   return (
-   <div className='body'> 
-   <Corsel className='carosel'/> 
-   <Content/>
-   </div>
+   <Home/>
   );
 }
 

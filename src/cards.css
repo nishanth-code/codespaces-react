@@ -1,0 +1,17 @@
+.card{
+    display:flex;
+    margin-right: 7px;
+    flex-direction: row;
+
+}
+.image{
+    flex-basis: 30%;
+    
+}
+.text{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
