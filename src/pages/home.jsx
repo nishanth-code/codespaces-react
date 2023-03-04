@@ -13,13 +13,14 @@ return(
     <Section>
     <Carousel className="cor" />
   </Section>
+  </Fragment>
   <section className='after-carousel'>
   <Content/>
   <Recentactivity/>
   </section>
   <Decors/>
   
-  </Fragment>
+  
   
   </>
   

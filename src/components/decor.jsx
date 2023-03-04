@@ -11,6 +11,7 @@ const app =()=>{
     <div className="card">
         <div className="item">
             <img src={images.src1} alt="" srcset="" />
+            
 
         </div>
         <div className="item">
