@@ -1,0 +1,66 @@
+.f-bacground{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F1F6FF;
+}
+.left-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 70px;
+    border-right: 2.5px solid black;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    margin-right: 10px;
+}
+.group-header{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+}
+.group-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 167.69%;
+}
+.right-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;    
+}
+.footer-ultimate{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+
+    
+}
+.footer-head{
+    font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+text-transform: capitalize;
+margin: 10px;
+}
+.footer-text{
+    margin:10px;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-transform: capitalize;
+}

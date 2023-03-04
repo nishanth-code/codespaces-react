@@ -8,6 +8,8 @@ import React, { Fragment } from "react";
 import Section from '../components/section'
 import Recentactivity from '../components/recentveiws'
 import Offers from '../components/offer'
+import Prime from '../components/primeFeatures'
+import FooterContent from '../components/footerNavigation'
 
 const home =()=>{
 return(
@@ -24,7 +26,9 @@ return(
   <Categories/>
   <DisountBanner/>
   <Offers/>
+  <Prime/>
    </section>
+   <FooterContent/>
    </>
   
 );
