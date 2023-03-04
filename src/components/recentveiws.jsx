@@ -35,20 +35,23 @@ const images = [
   ];
   const app =() =>{
     return(
-    <Carousel responsive={responsive}>
-      <div className="card">
+      <>
+      <p className='header'> Viewed Recently</p>
+    <Carousel responsive={responsive}  itemClass="recent-item"  prtialVisible={true} >
+      <div className="card" >
             <img src={images[0]} alt="" srcset="" className="image" />
-           <p className='text'>hello from nishanth</p>
+           <p className='text' align="center">hello from nishanth</p>
         </div>
-        <div className="card">
+        <div className="card" >
             <img src={images[0]} alt="" srcset="" className="image" />
-           
+           <p className='text' align="center">hello from nishanth</p>
         </div>
-        <div className="card">
+        <div className="card" >
             <img src={images[0]} alt="" srcset="" className="image" />
-           
+           <p className='text' align="center">hello from nishanth</p>
         </div>
     </Carousel>
+    </>
     );
 
   }

@@ -51,7 +51,7 @@ const Simple = () => {
         return (
           <Image
             draggable={false}
-            style={{ width: "900px", height: "413px" }}
+            style={{ width: "99%", height: "413px" ,marginLeft:"10px"}}
             src={image}
             className='img'
           />

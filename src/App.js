@@ -5,7 +5,7 @@ import Decors from './components/decor'
 function App() {
   return (
     <>
-    <Decors/>
+    
    <Home/>
    </>
   );
