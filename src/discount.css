@@ -1,7 +1,9 @@
 .banner{
     border-radius: 10px;
     margin:10px 20px 10px 20px ;
+    border:2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 180px;
 }

@@ -2,22 +2,23 @@
 import Carousel from "react-multi-carousel";
 import { Image } from "semantic-ui-react";
 import '../corousel.css'
+import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 1,
-    paritialVisibilityGutter: 60
+    paritialVisibilityGutter: 10
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
     items: 1,
-    paritialVisibilityGutter: 50
+    paritialVisibilityGutter: 10
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,
-    paritialVisibilityGutter: 30
+    paritialVisibilityGutter: 10
   }
 };
 const images = [
@@ -50,7 +51,7 @@ const Simple = () => {
         return (
           <Image
             draggable={false}
-            style={{ width: "1000px", height: "413px" }}
+            style={{ width: "99%", height: "413px" ,marginLeft:"10px"}}
             src={image}
             className='img'
           />

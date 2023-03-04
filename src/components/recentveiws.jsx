@@ -5,12 +5,12 @@ import "react-multi-carousel/lib/styles.css";
 const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 1,
+      items: 3,
       paritialVisibilityGutter: 30
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 1,
+      items: 2,
       paritialVisibilityGutter: 50
     },
     mobile: {
@@ -34,20 +34,25 @@ const images = [
     "https://images.unsplash.com/photo-1550064824-8f993041ffd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
   ];
   const app =() =>{
-    <Carousel responsive={responsive}>
-      <div className="card">
+    return(
+      <>
+      <p className='header'> Viewed Recently</p>
+    <Carousel responsive={responsive}  itemClass="recent-item"  prtialVisible={true} >
+      <div className="card" >
             <img src={images[0]} alt="" srcset="" className="image" />
-           
+           <p className='text' align="center">hello from nishanth</p>
         </div>
-        <div className="card">
+        <div className="card" >
             <img src={images[0]} alt="" srcset="" className="image" />
-           
+           <p className='text' align="center">hello from nishanth</p>
         </div>
-        <div className="card">
+        <div className="card" >
             <img src={images[0]} alt="" srcset="" className="image" />
-           
+           <p className='text' align="center">hello from nishanth</p>
         </div>
     </Carousel>
+    </>
+    );
 
   }
 

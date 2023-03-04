@@ -1,56 +1,57 @@
 import '../component.css'
+import {ArrowRight } from 'react-bootstrap-icons'
 const contents = () =>{
 return (
     <>
     <p className='content-heading'>What are you Celebrating?</p>
     <div className='main'>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
         <div className="item">
-            d
+            <ArrowRight/>
         </div>
 
     </div>
