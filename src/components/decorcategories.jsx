@@ -53,7 +53,7 @@ const app =()=>{
          <Carousel responsive={responsive}  itemClass="categories"  prtialVisible={true} >
         <div> 
          <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="" alt="jiji" />
+      <Card.Img variant="top" src="" alt="jiji" style={{width:'180px',height:'100px',}} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -65,7 +65,7 @@ const app =()=>{
     </div>
     <div>
      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="" alt="jiji" />
+      <Card.Img variant="top" src="" alt="jiji" style={{width:'180px',height:'100px',}}/>
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -79,7 +79,7 @@ const app =()=>{
        <div>
       
      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="" alt="jiji" />
+      <Card.Img variant="top" src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="jiji" style={{width:'280px',height:'100px',}} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
